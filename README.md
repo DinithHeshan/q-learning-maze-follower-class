@@ -20,14 +20,14 @@
 
   <h2>Usage</h2>
   <ol>
-    <li>Define the maze using the <code>maze.py</code> module. You can specify the size of the maze and the location of the walls.</li>
-    <li>Define the destination using the <code>maze.py</code> module. You can specify the location of the destination within the maze.</li>
-    <li>Define the algorithm parameters using the <code>algorithm.py</code> module. You can specify the discount factor, greedy policy, and learning rate.</li>
-    <li>Train the algorithm using the <code>train.py</code> module. This will create a Q-table for the algorithm based on the specified maze, destination, and algorithm parameters.</li>
-    <li>Define the initial point using the <code>simulation.py</code> module. You can specify the starting point for the algorithm within the maze.</li>
-    <li>Simulate the algorithm without obstacles using the <code>simulation.py</code> module. This will show the shortest path to the destination without any obstacles in the maze.</li>
-    <li>Define obstacles using the <code>maze.py</code> module. You can specify the location of the obstacles within the maze.</li>
-    <li>Simulate the algorithm with obstacles using the <code>simulation.py</code> module. This will show the shortest path to the destination with the specified obstacles in the maze.</li>
+    <li>Define the maze using the <code>initializeRewardArray.py</code> module. You can specify the size of the maze and the location of the walls.</li>
+    <li>Define the destination using the <code>initializeDestination.py</code> module. You can specify the location of the destination within the maze.</li>
+    <li>Define the algorithm parameters using the <code>initializeQLearning.py</code> module. You can specify the discount factor, greedy policy, and learning rate.</li>
+    <li>Train the algorithm using the <code>modelTraining.py</code> module. This will create a Q-table for the algorithm based on the specified maze, destination, and algorithm parameters.</li>
+    <li>Decide the initial point. You can specify the starting point for the algorithm within the maze.</li>
+    <li>Simulate the algorithm without obstacles using the <code>formDynamicMazeQValuesConstant.py</code> module. This will show the shortest path to the destination without any obstacles in the maze.</li>
+    <li>Define obstacles using the <code>addObstacle.py</code> module. You can specify the location of the obstacles within the maze.</li>
+    <li>Simulate the algorithm with obstacles using the <code>formDynamicMazeQValuesUpdating.py</code> module. This will show the shortest path to the destination with the specified obstacles in the maze.</li>
   </ol>
 
   <h2>Credits</h2>
