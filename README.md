@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Maze Solving Application</title>
 </head>
 <body>
 	<h1>Maze Solving Application</h1>
