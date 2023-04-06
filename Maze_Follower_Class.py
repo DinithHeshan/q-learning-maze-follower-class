@@ -1,5 +1,6 @@
 class QLearningMazeFollower:
 
+ 
 
 #Backend Methods________________________________________________________________
 
@@ -201,6 +202,7 @@ class QLearningMazeFollower:
       return ['Destination Reached',coordinatePathArray]
 
 
+    
 #Frontend Methods_______________________________________________________________
 
   def formFilledSquare(self,figure,ix,iy,color):
